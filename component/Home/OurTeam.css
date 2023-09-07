@@ -1,0 +1,71 @@
+#model1 .description
+{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    background-color: #191d88c3;
+    transform: translateY(0);
+    /* border-radius: 15px; */
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#model1 .member
+{
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#model1 .member:hover
+{
+    transform: scale(1.01);
+}
+
+#model1 .member:hover .description
+{
+    transform: translateY(-100%);
+}
+
+#model1 .description h1
+{
+    color: #ffffff;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+
+#model1 .description h2
+{
+    font-family: 'Kalam', cursive;
+        text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+#model1 .description p
+{
+    color: #fff;
+    text-align: justify;
+    padding: 0 15px;
+    font-family: 'Tinos', serif;
+}
+
+#model1 .description .social-media svg
+{
+    color: #fff;
+    font-size: 35px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#model1 .description .social-media svg:hover
+{
+    transform: scale(1.1);
+    color: #F21B3F;
+}

@@ -1,0 +1,29 @@
+.educate{
+    width: 100%;
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:start;
+}
+.app_heading{
+    font-family: 'Courgette', cursive;
+font-size: 30px; 
+margin: 0;
+}
+.app_subheading{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: 'Tinos', serif;
+    font-size: 17px;
+
+}
+.app_desc{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(49, 49, 49);
+}
+.app_links1{
+    width: 20%;
+}
+/* .googlePlayStore_link img{
+    margin-top: 2rem;
+} */

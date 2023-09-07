@@ -1,0 +1,41 @@
+.educate{
+    width: 100%;
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align:start;
+}
+.educate_desc_div{
+    border: 1px solid rgb(221, 221, 221);
+    padding: .5rem;
+    background-color: white;
+}
+.educate_desc{
+    font-family: 'Tinos', serif;
+    color: rgb(49, 49, 49);
+}
+.app_heading{
+    font-family: 'Tinos', serif;
+    font-size: 20px; 
+margin: 0;
+background-color: #191D88;
+padding: .5rem;
+color: white;
+}
+.app_subheading{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: 'Tinos', serif;
+    font-size: 17px;
+
+}
+.app_desc{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(49, 49, 49);
+}
+.app_links1{
+    width: 20%;
+}
+/* .googlePlayStore_link img{
+    margin-top: 3rem;
+} */
